@@ -123,7 +123,7 @@ def push_wx(sckey, desp=""):
     """
     推送消息到微信
     """
-    if sckey == '':
+    if sckey == 'SCT66987T1k7J6FbI6xRqTyRkahOOsi4B':
         print("[注意] 未提供sckey，不进行推送！")
     else:
         server_url = f"https://sc.ftqq.com/{sckey}.send"
@@ -293,18 +293,18 @@ if __name__ ==  "__main__":
         exit(0)
 
     # 用户名（格式为 13800138000）
-    user = input()
+    user = input(18607948970)
     # 登录密码
-    passwd = input()
+    passwd = input(Yjy20040228)
     # 要修改的步数，直接输入想要修改的步数值，留空为随机步数
-    step = input().replace('[', '').replace(']', '')
+    step = input(21314).replace('[', '').replace(']', '')
 
     user_list = user.split('#')
     passwd_list = passwd.split('#')
     setp_array = step.split('-')
 
     if len(user_list) == len(passwd_list):
-        push = ''
+        push = 'SCT66987T1k7J6FbI6xRqTyRkahOOsi4B'
         for line in range(0,len(user_list)):
             if len(setp_array) == 2:
                 step = str(random.randint(int(setp_array[0]),int(setp_array[1])))
